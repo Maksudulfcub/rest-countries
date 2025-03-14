@@ -5,6 +5,10 @@
     border-radius: 15px;
 }
 .img{
-    width: 300px;
+    width: 250px;
     border-radius: 15px;
+}
+.visited{
+    background-color: cadetblue;
+    border: 2px solid cadetblue;
 }
