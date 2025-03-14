@@ -25,11 +25,11 @@ const Countries = () => {
             <h2>Total Country : {countries.length}</h2>
             <div>
                 <h3>My Visited Country : {addVisited.length}</h3>
-                <ul>
+                <div>
                     {
                         addVisited.map(country => <li key={country.cca3}>{country.name.common}</li>)
                     }
-                </ul>
+                </div>
             </div>
             <div className="countries">
                 {
